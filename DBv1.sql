@@ -99,12 +99,7 @@ CREATE TABLE IF NOT EXISTS `mydb`.`AdvertEntity` (
   `MatchId` VARCHAR(45) NULL,
   `TeamId` VARCHAR(45) NULL,
   `TournamentId` VARCHAR(45) NULL,
-  PRIMARY KEY (`Id`),
-  CONSTRAINT `MatchId`
-    FOREIGN KEY ()
-    REFERENCES `mydb`.`MatchEntity` ()
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+  PRIMARY KEY (`Id`))
 ENGINE = InnoDB;
 
 
